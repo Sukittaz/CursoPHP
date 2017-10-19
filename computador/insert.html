@@ -1,0 +1,23 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Inserir Computador</title>
+</head>
+<body>	
+</head>
+<body>
+	<form action="list.php?insert" method="POST">
+		<label>Placa Mãe: </label><br/>
+		<input type="text" name="placa"/><br/>
+		<label>Processador: </label><br/>
+		<input type="text" name="processador"/><br/>
+		<label>Sistema: </label><br/>
+		<select name="sistema">
+			<option>Selecione</option>
+			<option value="Windows">Windows</option>
+			<option value="Linux">Linux</option>
+		</select><br/><br/>
+		<input type="submit" name="Enviar">			
+	</form>
+</body>
+</html>

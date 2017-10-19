@@ -1,0 +1,26 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Inserir Filme</title>
+</head>
+<body>	
+</head>
+<body>
+	<form action="list.php?insert" method="POST">
+		<label>Nome: </label><br/>
+		<input type="text" name="nome"/><br/>
+		<label>Tipo: </label><br/>
+		<select name="tipo">
+			<option>Selecione</option>
+			<option value="Terror">Terror</option>
+			<option value="Ação">Ação</option>
+			<option value="Animação">Animação</option>
+		</select><br/>
+		<label>Ano: </label><br/>
+		<input type="text" name="ano"/><br/>		
+		<label>Diretor: </label><br/>
+		<input type="text" name="diretor"/><br/><br/>
+		<input type="submit" name="Enviar">			
+	</form>
+</body>
+</html>
